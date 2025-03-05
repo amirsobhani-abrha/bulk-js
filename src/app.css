@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Reforma2018;
+	font-weight: 400;
+	font-style: normal;
+	src: url('/reforma/Reforma2018-Blanca.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Reforma2018;
+	font-weight: 600;
+	font-style: normal;
+	src: url('/reforma/Reforma2018-Gris.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Reforma2018;
+	font-weight: 700;
+	font-style: normal;
+	src: url('/reforma/Reforma2018-Negra.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Reforma2018;
+	font-weight: 400;
+	font-style: italic;
+	src: url('/reforma/Reforma2018-BlancaItalica.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Reforma2018;
+	font-weight: 600;
+	font-style: italic;
+	src: url('/reforma/Reforma2018-GrisItalica.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Reforma2018;
+	font-weight: 700;
+	font-style: italic;
+	src: url('/reforma/Reforma2018-NegraItalica.ttf') format('truetype');
+}
+
+@layer base {
+	html {
+		font-family: 'Reforma2018', system-ui, sans-serif;
+	}
+}
